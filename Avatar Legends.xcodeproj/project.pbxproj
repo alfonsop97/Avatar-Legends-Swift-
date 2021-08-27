@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99CB745626D86F2500004B80 /* Avatar_LegendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB745526D86F2500004B80 /* Avatar_LegendsApp.swift */; };
+		99CB745826D86F2500004B80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB745726D86F2500004B80 /* ContentView.swift */; };
+		99CB745A26D86F2C00004B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CB745926D86F2C00004B80 /* Assets.xcassets */; };
+		99CB745D26D86F2C00004B80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CB745C26D86F2C00004B80 /* Preview Assets.xcassets */; };
+		99CB746826D86F2C00004B80 /* Avatar_LegendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB746726D86F2C00004B80 /* Avatar_LegendsTests.swift */; };
+		99CB747326D86F2C00004B80 /* Avatar_LegendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB747226D86F2C00004B80 /* Avatar_LegendsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99CB746426D86F2C00004B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99CB744A26D86F2500004B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CB745126D86F2500004B80;
+			remoteInfo = "Avatar Legends";
+		};
+		99CB746F26D86F2C00004B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99CB744A26D86F2500004B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CB745126D86F2500004B80;
+			remoteInfo = "Avatar Legends";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99CB745226D86F2500004B80 /* Avatar Legends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avatar Legends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CB745526D86F2500004B80 /* Avatar_LegendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_LegendsApp.swift; sourceTree = "<group>"; };
+		99CB745726D86F2500004B80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99CB745926D86F2C00004B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99CB745C26D86F2C00004B80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99CB745E26D86F2C00004B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99CB746326D86F2C00004B80 /* Avatar LegendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avatar LegendsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CB746726D86F2C00004B80 /* Avatar_LegendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_LegendsTests.swift; sourceTree = "<group>"; };
+		99CB746926D86F2C00004B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99CB746E26D86F2C00004B80 /* Avatar LegendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avatar LegendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CB747226D86F2C00004B80 /* Avatar_LegendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_LegendsUITests.swift; sourceTree = "<group>"; };
+		99CB747426D86F2C00004B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CB744F26D86F2500004B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CB746026D86F2C00004B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CB746B26D86F2C00004B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99CB744926D86F2500004B80 = {
+			isa = PBXGroup;
+			children = (
+				99CB745426D86F2500004B80 /* Avatar Legends */,
+				99CB746626D86F2C00004B80 /* Avatar LegendsTests */,
+				99CB747126D86F2C00004B80 /* Avatar LegendsUITests */,
+				99CB745326D86F2500004B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99CB745326D86F2500004B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CB745226D86F2500004B80 /* Avatar Legends.app */,
+				99CB746326D86F2C00004B80 /* Avatar LegendsTests.xctest */,
+				99CB746E26D86F2C00004B80 /* Avatar LegendsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CB745426D86F2500004B80 /* Avatar Legends */ = {
+			isa = PBXGroup;
+			children = (
+				99CB745526D86F2500004B80 /* Avatar_LegendsApp.swift */,
+				99CB745726D86F2500004B80 /* ContentView.swift */,
+				99CB745926D86F2C00004B80 /* Assets.xcassets */,
+				99CB745E26D86F2C00004B80 /* Info.plist */,
+				99CB745B26D86F2C00004B80 /* Preview Content */,
+			);
+			path = "Avatar Legends";
+			sourceTree = "<group>";
+		};
+		99CB745B26D86F2C00004B80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99CB745C26D86F2C00004B80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99CB746626D86F2C00004B80 /* Avatar LegendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				99CB746726D86F2C00004B80 /* Avatar_LegendsTests.swift */,
+				99CB746926D86F2C00004B80 /* Info.plist */,
+			);
+			path = "Avatar LegendsTests";
+			sourceTree = "<group>";
+		};
+		99CB747126D86F2C00004B80 /* Avatar LegendsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99CB747226D86F2C00004B80 /* Avatar_LegendsUITests.swift */,
+				99CB747426D86F2C00004B80 /* Info.plist */,
+			);
+			path = "Avatar LegendsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CB745126D86F2500004B80 /* Avatar Legends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CB747726D86F2C00004B80 /* Build configuration list for PBXNativeTarget "Avatar Legends" */;
+			buildPhases = (
+				99CB744E26D86F2500004B80 /* Sources */,
+				99CB744F26D86F2500004B80 /* Frameworks */,
+				99CB745026D86F2500004B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avatar Legends";
+			productName = "Avatar Legends";
+			productReference = 99CB745226D86F2500004B80 /* Avatar Legends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99CB746226D86F2C00004B80 /* Avatar LegendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CB747A26D86F2C00004B80 /* Build configuration list for PBXNativeTarget "Avatar LegendsTests" */;
+			buildPhases = (
+				99CB745F26D86F2C00004B80 /* Sources */,
+				99CB746026D86F2C00004B80 /* Frameworks */,
+				99CB746126D86F2C00004B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99CB746526D86F2C00004B80 /* PBXTargetDependency */,
+			);
+			name = "Avatar LegendsTests";
+			productName = "Avatar LegendsTests";
+			productReference = 99CB746326D86F2C00004B80 /* Avatar LegendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99CB746D26D86F2C00004B80 /* Avatar LegendsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CB747D26D86F2C00004B80 /* Build configuration list for PBXNativeTarget "Avatar LegendsUITests" */;
+			buildPhases = (
+				99CB746A26D86F2C00004B80 /* Sources */,
+				99CB746B26D86F2C00004B80 /* Frameworks */,
+				99CB746C26D86F2C00004B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99CB747026D86F2C00004B80 /* PBXTargetDependency */,
+			);
+			name = "Avatar LegendsUITests";
+			productName = "Avatar LegendsUITests";
+			productReference = 99CB746E26D86F2C00004B80 /* Avatar LegendsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CB744A26D86F2500004B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					99CB745126D86F2500004B80 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					99CB746226D86F2C00004B80 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 99CB745126D86F2500004B80;
+					};
+					99CB746D26D86F2C00004B80 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 99CB745126D86F2500004B80;
+					};
+				};
+			};
+			buildConfigurationList = 99CB744D26D86F2500004B80 /* Build configuration list for PBXProject "Avatar Legends" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99CB744926D86F2500004B80;
+			productRefGroup = 99CB745326D86F2500004B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CB745126D86F2500004B80 /* Avatar Legends */,
+				99CB746226D86F2C00004B80 /* Avatar LegendsTests */,
+				99CB746D26D86F2C00004B80 /* Avatar LegendsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CB745026D86F2500004B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CB745D26D86F2C00004B80 /* Preview Assets.xcassets in Resources */,
+				99CB745A26D86F2C00004B80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CB746126D86F2C00004B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CB746C26D86F2C00004B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CB744E26D86F2500004B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CB745826D86F2500004B80 /* ContentView.swift in Sources */,
+				99CB745626D86F2500004B80 /* Avatar_LegendsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CB745F26D86F2C00004B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CB746826D86F2C00004B80 /* Avatar_LegendsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CB746A26D86F2C00004B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CB747326D86F2C00004B80 /* Avatar_LegendsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99CB746526D86F2C00004B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99CB745126D86F2500004B80 /* Avatar Legends */;
+			targetProxy = 99CB746426D86F2C00004B80 /* PBXContainerItemProxy */;
+		};
+		99CB747026D86F2C00004B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99CB745126D86F2500004B80 /* Avatar Legends */;
+			targetProxy = 99CB746F26D86F2C00004B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99CB747526D86F2C00004B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99CB747626D86F2C00004B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CB747826D86F2C00004B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Avatar Legends/Preview Content\"";
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Avatar Legends/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Avatar-Legends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99CB747926D86F2C00004B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Avatar Legends/Preview Content\"";
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Avatar Legends/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Avatar-Legends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99CB747B26D86F2C00004B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Avatar LegendsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Avatar-LegendsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avatar Legends.app/Avatar Legends";
+			};
+			name = Debug;
+		};
+		99CB747C26D86F2C00004B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Avatar LegendsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Avatar-LegendsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avatar Legends.app/Avatar Legends";
+			};
+			name = Release;
+		};
+		99CB747E26D86F2C00004B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Avatar LegendsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Avatar-LegendsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Avatar Legends";
+			};
+			name = Debug;
+		};
+		99CB747F26D86F2C00004B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Avatar LegendsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Avatar-LegendsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Avatar Legends";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CB744D26D86F2500004B80 /* Build configuration list for PBXProject "Avatar Legends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CB747526D86F2C00004B80 /* Debug */,
+				99CB747626D86F2C00004B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CB747726D86F2C00004B80 /* Build configuration list for PBXNativeTarget "Avatar Legends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CB747826D86F2C00004B80 /* Debug */,
+				99CB747926D86F2C00004B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CB747A26D86F2C00004B80 /* Build configuration list for PBXNativeTarget "Avatar LegendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CB747B26D86F2C00004B80 /* Debug */,
+				99CB747C26D86F2C00004B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CB747D26D86F2C00004B80 /* Build configuration list for PBXNativeTarget "Avatar LegendsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CB747E26D86F2C00004B80 /* Debug */,
+				99CB747F26D86F2C00004B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99CB744A26D86F2500004B80 /* Project object */;
+}

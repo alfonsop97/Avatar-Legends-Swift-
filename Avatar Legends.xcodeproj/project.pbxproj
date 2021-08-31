@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		99CB745D26D86F2C00004B80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CB745C26D86F2C00004B80 /* Preview Assets.xcassets */; };
 		99CB746826D86F2C00004B80 /* Avatar_LegendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB746726D86F2C00004B80 /* Avatar_LegendsTests.swift */; };
 		99CB747326D86F2C00004B80 /* Avatar_LegendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB747226D86F2C00004B80 /* Avatar_LegendsUITests.swift */; };
+		99E3E98426DB0FC700EBB915 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99E3E98326DB0FC700EBB915 /* RealmSwift */; };
+		99E3E98626DB0FC700EBB915 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 99E3E98526DB0FC700EBB915 /* Realm */; };
+		99E3E98826DB141C00EBB915 /* RealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3E98726DB141C00EBB915 /* RealmDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		99CB746E26D86F2C00004B80 /* Avatar LegendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avatar LegendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CB747226D86F2C00004B80 /* Avatar_LegendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_LegendsUITests.swift; sourceTree = "<group>"; };
 		99CB747426D86F2C00004B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E3E98726DB141C00EBB915 /* RealmDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E3E98626DB0FC700EBB915 /* Realm in Frameworks */,
+				99E3E98426DB0FC700EBB915 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,7 @@
 				99CB745926D86F2C00004B80 /* Assets.xcassets */,
 				99CB745E26D86F2C00004B80 /* Info.plist */,
 				99CB745B26D86F2C00004B80 /* Preview Content */,
+				99E3E98726DB141C00EBB915 /* RealmDB.swift */,
 			);
 			path = "Avatar Legends";
 			sourceTree = "<group>";
@@ -146,6 +153,10 @@
 			dependencies = (
 			);
 			name = "Avatar Legends";
+			packageProductDependencies = (
+				99E3E98326DB0FC700EBB915 /* RealmSwift */,
+				99E3E98526DB0FC700EBB915 /* Realm */,
+			);
 			productName = "Avatar Legends";
 			productReference = 99CB745226D86F2500004B80 /* Avatar Legends.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 99CB744926D86F2500004B80;
+			packageReferences = (
+				99E3E98226DB0FC700EBB915 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 99CB745326D86F2500004B80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +275,7 @@
 			files = (
 				99CB745826D86F2500004B80 /* ContentView.swift in Sources */,
 				99CB745626D86F2500004B80 /* Avatar_LegendsApp.swift in Sources */,
+				99E3E98826DB141C00EBB915 /* RealmDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +595,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99E3E98226DB0FC700EBB915 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99E3E98326DB0FC700EBB915 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99E3E98226DB0FC700EBB915 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		99E3E98526DB0FC700EBB915 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99E3E98226DB0FC700EBB915 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99CB744A26D86F2500004B80 /* Project object */;
 }

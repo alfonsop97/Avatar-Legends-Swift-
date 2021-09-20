@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 //Basically the main function of this view
 struct ContentView: View {
+    
+    @EnvironmentObject var viewRouter: ViewRouter
     
     @State private var username: String = ""
     @State private var password: String = ""
@@ -28,11 +31,12 @@ struct ContentView: View {
                 "Username...",
                  text: $username)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
+                
             TextField(
                 "Password...",
                  text: $password)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-
+                .padding(.bottom, 20)
             HStack {
                 Button(action: {
                     signIn(username, password)
@@ -44,6 +48,7 @@ struct ContentView: View {
                 }
                 Button(action: {
                     let userInfo = createAccount(username, password)
+
                 }) {
                     Text("Create Account")
                         .font(.title2)
@@ -63,6 +68,7 @@ struct ContentView: View {
     func signIn(_ username: String, _ password: String) {
         if(username == "Alfonso" && password == "hi") {
             title = "right"
+            viewRouter.currentPage = .page2
         } else {
             title = "wrong"
             

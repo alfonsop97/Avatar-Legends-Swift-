@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct Avatar_LegendsApp: App {
+struct Avatar_LengendsApp: App {
+    
+    @StateObject var viewRouter = ViewRouter()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MotherView().environmentObject(viewRouter)
         }
     }
 }

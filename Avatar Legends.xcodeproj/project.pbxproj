@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9949E53326EECAE800CB55AB /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949E53226EECAE800CB55AB /* MainMenuView.swift */; };
+		99C4FBA826F8472700B25A49 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4FBA726F8472700B25A49 /* ViewRouter.swift */; };
+		99C4FBAA26F847B900B25A49 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4FBA926F847B900B25A49 /* MotherView.swift */; };
+		99C4FBAC26F849A100B25A49 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4FBAB26F849A100B25A49 /* Helper.swift */; };
 		99CB745626D86F2500004B80 /* Avatar_LegendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB745526D86F2500004B80 /* Avatar_LegendsApp.swift */; };
 		99CB745826D86F2500004B80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB745726D86F2500004B80 /* ContentView.swift */; };
 		99CB745A26D86F2C00004B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CB745926D86F2C00004B80 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9949E53226EECAE800CB55AB /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		99C4FBA726F8472700B25A49 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		99C4FBA926F847B900B25A49 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		99C4FBAB26F849A100B25A49 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		99CB745226D86F2500004B80 /* Avatar Legends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avatar Legends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CB745526D86F2500004B80 /* Avatar_LegendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_LegendsApp.swift; sourceTree = "<group>"; };
 		99CB745726D86F2500004B80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,10 +111,14 @@
 			children = (
 				99CB745526D86F2500004B80 /* Avatar_LegendsApp.swift */,
 				99CB745726D86F2500004B80 /* ContentView.swift */,
+				9949E53226EECAE800CB55AB /* MainMenuView.swift */,
+				99E3E98726DB141C00EBB915 /* RealmDB.swift */,
+				99C4FBA726F8472700B25A49 /* ViewRouter.swift */,
+				99C4FBA926F847B900B25A49 /* MotherView.swift */,
+				99C4FBAB26F849A100B25A49 /* Helper.swift */,
 				99CB745926D86F2C00004B80 /* Assets.xcassets */,
 				99CB745E26D86F2C00004B80 /* Info.plist */,
 				99CB745B26D86F2C00004B80 /* Preview Content */,
-				99E3E98726DB141C00EBB915 /* RealmDB.swift */,
 			);
 			path = "Avatar Legends";
 			sourceTree = "<group>";
@@ -273,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C4FBA826F8472700B25A49 /* ViewRouter.swift in Sources */,
+				99C4FBAC26F849A100B25A49 /* Helper.swift in Sources */,
+				99C4FBAA26F847B900B25A49 /* MotherView.swift in Sources */,
+				9949E53326EECAE800CB55AB /* MainMenuView.swift in Sources */,
 				99CB745826D86F2500004B80 /* ContentView.swift in Sources */,
 				99CB745626D86F2500004B80 /* Avatar_LegendsApp.swift in Sources */,
 				99E3E98826DB141C00EBB915 /* RealmDB.swift in Sources */,

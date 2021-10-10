@@ -18,6 +18,9 @@ struct MotherView: View {
         case .page2:
             MainMenuView()
                 .transition(.scale)
+        case .page3:
+            NewAccountView()
+                .transition(.scale)
         }
     }
 }
